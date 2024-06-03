@@ -50,14 +50,16 @@ main {
 }
 
 .form-container h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .form-container h1 span {
+    font-size: 1.5rem;
     color: #000;
     background: #20f03fb2;
     padding: 0 4px;
+    white-space: nowrap;
 }
 
 .form-container p {
