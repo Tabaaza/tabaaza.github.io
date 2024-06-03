@@ -5,6 +5,29 @@ body {
     background: #f7f7f7;
 }
 
+header {
+    background: #ffef5f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header span {
+    color: #000;
+}
+
+main {
+    display: flex;
+    background: #ffef5f;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -83,6 +106,11 @@ body {
     opacity: 1; /* Override default opacity */
 }
 
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
 textarea {
     width: 95%;
     padding: 10px;
@@ -159,4 +187,35 @@ button:hover {
 .textPhone {
     width: 100%;
     margin: 5px;
+}
+
+footer {
+    background: #ffef5f;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
 }
