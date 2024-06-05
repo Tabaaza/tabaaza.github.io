@@ -227,8 +227,9 @@ footer nav ul li a:hover {
     position: absolute; 
     top: 20%;  
     left: 47%; 
-    transform: translate(-50%, 0); 
+    transform: translate(-50%, 0);
 }
+
 @media screen and (max-width: 768px) {
     .adsDiv {
         top: 8%;
