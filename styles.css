@@ -223,8 +223,8 @@ footer nav ul li a:hover {
 
 .adsDiv {
     position: absolute; 
-    top: 0;  
-    left: 50%; 
+    top: 20%;  
+    left: 47%; 
     transform: translate(-50%, 0); 
     width: 321px;
     height: 51px;
