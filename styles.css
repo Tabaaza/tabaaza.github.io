@@ -220,3 +220,12 @@ footer nav ul li a {
 footer nav ul li a:hover {
     text-decoration: underline;
 }
+
+.adsDiv {
+    position: absolute; 
+    top: 0;  
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    width: 321px;
+    height: 51px;
+}
