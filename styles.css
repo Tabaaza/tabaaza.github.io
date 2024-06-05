@@ -229,7 +229,7 @@ footer nav ul li a:hover {
     width: 321px;
     height: 51px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .adsDiv {
         top: 12%;
         left: 50%;
