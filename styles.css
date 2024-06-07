@@ -140,6 +140,10 @@ button {
 button:hover {
     background: #333;
 }
+.generateLinkButton:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
 
 .phone-container {
     display: none; /* Initially hide on mobile */

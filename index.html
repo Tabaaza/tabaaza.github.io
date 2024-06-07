@@ -30,6 +30,7 @@
     <link rel="icon" href="./img/logo.ico" type="image/x-icon">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1674256982892150"
      crossorigin="anonymous"></script>
+     <script src="script.js"></script>
 
 </head>
 <body>
@@ -60,7 +61,7 @@
                     <input type="text" id="phone" class="textPhone" placeholder="Your phone without country code and 0" required>
                 </div>
                 <textarea id="messageMain" placeholder="Your message here, Will be pre-filled in WhatsApp message" rows="4" required></textarea>
-                <button type="button" class="generateLinkButton" onclick="generateLink()">Send WhatsApp message</button>
+                <button type="button" id="submitButton" class="generateLinkButton" onclick="generateLink()">Send WhatsApp message</button>
             </form>
         </div>
         <div class="phone-container">
@@ -80,6 +81,5 @@
             </ul>
         </nav>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
