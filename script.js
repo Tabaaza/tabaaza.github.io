@@ -14,7 +14,7 @@ function generateLink() {
 
   // Alert if message is empty
   if (phone.trim() === "") {
-      alert("Please add a message.");
+      alert("Please add a Phone number.");
       return;
   }
 
