@@ -17,5 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
   // Enable the button after 5 seconds (5000 milliseconds)
   setTimeout(function() {
     submitButton.disabled = false;
-  }, 2500);
+  }, 5000);
 });
