@@ -48,6 +48,12 @@ main {
     max-width: 400px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+    .form-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }
 
 .form-container h1 {
     font-size: 20px;
