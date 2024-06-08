@@ -50,8 +50,8 @@ main {
 }
 @media screen and (max-width: 768px) {
     .form-container {
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
   }
 
